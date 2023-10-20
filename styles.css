@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('mifuentedos.ttf') format('truetype');
+    /* Otras propiedades de la fuente, como weight y style */
+}
+body {
+    font-family: 'MiFuentePersonalizada', sans-serif;
+    width: 100%;
+}
+
+/* Otras reglas CSS que utilicen la fuente personalizada */
+
+h1 {
+    font-size: 6rem; /* 96px */
+    font-weight: 400;
+    color: #82815B;
+    text-align: center;
+}
