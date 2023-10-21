@@ -17,7 +17,7 @@ h1 {
     color: #82815B;
     text-align: center;
     line-height: 0.5;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 .flex{
    display: flex;
@@ -30,6 +30,7 @@ p, span {
     color: #82815B;
     font-weight: 400;
     text-align: center;
+
 
 }
 .clock{
@@ -50,7 +51,7 @@ span {
 .second-t {
     font-size: 3.75rem/* 60px */;
 }
-button {
+button{
     border-width: 2px;
     border-style: solid;
     border-radius: 0.75rem/* 12px */;
@@ -58,9 +59,23 @@ button {
     margin-top: 2rem/* 32px */;
     font-size: 2.25rem/* 36px */;
     line-height: 2.5rem/* 40px */;
-    color: #82815B;
+    background-color: #fff8f0;
     text-align: center;
     width: 50%;
     padding-top: 0.75rem/* 12px */;
     padding-bottom: 0.75rem/* 12px */;
+    font-family: 'MiFuentePersonalizada', sans-serif;
+    color: #82815B;
+    margin-bottom: 60px;
+
+} 
+button:hover{
+    background-color: #82815B;
+    color: #fff8f0;
+}
+iframe{
+    margin-bottom: 8rem;
+}
+.space{
+    margin-top: 5rem;
 }
