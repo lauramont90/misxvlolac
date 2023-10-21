@@ -6,6 +6,7 @@
 body {
     font-family: 'MiFuentePersonalizada', sans-serif;
     width: 100%;
+    background-color: #fff8f0;
 }
 
 /* Otras reglas CSS que utilicen la fuente personalizada */
@@ -15,4 +16,51 @@ h1 {
     font-weight: 400;
     color: #82815B;
     text-align: center;
+    line-height: 0.5;
+    margin-top: 6rem;
+}
+.flex{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+}
+p, span {
+    font-size: 2.25rem/* 36px */;
+    line-height: 1rem/* 40px */;
+    color: #82815B;
+    font-weight: 400;
+    text-align: center;
+
+}
+.clock{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items:center;  
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-bottom: 5rem;
+}
+span {
+    line-height: 3rem;
+}
+.second-t {
+    font-size: 3.75rem/* 60px */;
+}
+button {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.75rem/* 12px */;
+    font-weight: 400;
+    margin-top: 2rem/* 32px */;
+    font-size: 2.25rem/* 36px */;
+    line-height: 2.5rem/* 40px */;
+    color: #82815B;
+    text-align: center;
+    width: 50%;
+    padding-top: 0.75rem/* 12px */;
+    padding-bottom: 0.75rem/* 12px */;
 }
