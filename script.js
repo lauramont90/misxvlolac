@@ -28,6 +28,8 @@ updateCountdown();
 // Obtén una referencia al botón por su ID
 const botonWhatsapp = document.getElementById("botonWhatsapp");
 const botonGoogleMaps = document.getElementById("botonGoogleMaps");
+const botonSpotify = document.getElementById("botonSpotify");
+const botonWhatsappMenu = document.getElementById("botonWhatsappMenu");
 
 // Agrega un manejador de eventos al botón
 botonWhatsapp.addEventListener("click", function() {
@@ -41,4 +43,16 @@ botonWhatsapp.addEventListener("click", function() {
 botonGoogleMaps.addEventListener("click", function() {
     const urlGoogleMaps = "https://maps.app.goo.gl/RUQuJaD7oojoVfWX6";
     window.open(urlGoogleMaps, "_blank");
+});
+botonSpotify.addEventListener("click", function() {
+    // Abre la URL de la lista de reproducción en una nueva pestaña
+    window.open("https://spotify.link/L1ENKQXv5Db");
+});
+// Agrega un manejador de eventos al botón
+botonWhatsappMenu.addEventListener("click", function() {
+    // URL de WhatsApp que deseas abrir
+    const urlWhatsappMenu = "https://wa.me/+541124683994?text=Tengo%20una%20condición%20con%20el%20menú";
+
+    // Redirige a la URL de WhatsApp
+    window.open(urlWhatsappMenu, "_blank");
 });
