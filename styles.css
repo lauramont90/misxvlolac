@@ -86,3 +86,57 @@ iframe{
 .title {
     margin-top: 9rem;
 }
+
+/******************* RESPONSIVE *******************/
+
+@media (max-width: 375px) {
+    .title-size {
+        text-align: center;
+        font-size: 4.5rem;
+    }
+    
+    .img-rose{
+        max-width: 100%;
+    }
+    #img-rosa{
+        width: 95%; /* Establece el ancho al 100% del contenedor */
+        max-width: 100%;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        font-size: 1.8rem/* 36px */;
+        line-height: 0.5rem/* 40px */;
+        color: #82815B;
+        font-weight: 400;
+        text-align: center;   
+    }
+    span{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    #img-rosa-one{
+        width: 50%; /* Establece el ancho al 100% del contenedor */
+        max-width: 100%;
+    }
+    .second-t{
+        font-size: 3.75rem/* 60px */;
+        line-height: 3.75rem/* 40px */;
+    }
+    button {
+        width: 80%;
+    }
+    iframe {
+        width: auto;
+    }
+    .ftr{
+        font-size: 18px;
+    }
+}
+
+/* Estilos adicionales de pantalla grande (escritorio) si es necesario */
+@media (min-width: 769px) {
+    /* Agrega tus estilos específicos para pantallas más grandes aquí */
+}
